@@ -14,14 +14,14 @@ body{
 
 /* Navbar (Bootstrap) overrides */
 .navbar{
-  background:#fff !important;
+  background:#111 !important;
   padding:18px 20px;
 }
 
 .navbar-brand{
   font-weight:800;
   letter-spacing:0.3px;
-  color:#111 !important;
+  color:#fff !important;
 }
 
 .navbar-nav .nav-link{
