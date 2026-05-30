@@ -14,7 +14,7 @@ body{
 
 /* Navbar (Bootstrap) overrides */
 .navbar{
-  background:#111 !important;
+  background:#fff !important;
   padding:18px 20px;
 }
 
