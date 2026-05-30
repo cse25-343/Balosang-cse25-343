@@ -14,14 +14,22 @@ body{
 
 /* Navbar (Bootstrap) overrides */
 .navbar{
+<<<<<<< HEAD
 background:#000000;
+=======
+  background:#111 !important;
+>>>>>>> 58ff8f9597f369756e1ae5a2b4d6390fc4be9249
   padding:18px 20px;
 }
 
 .navbar-brand{
   font-weight:800;
   letter-spacing:0.3px;
+<<<<<<< HEAD
 color:#ffffff;
+=======
+  color:#fff !important;
+>>>>>>> 58ff8f9597f369756e1ae5a2b4d6390fc4be9249
 }
 
 .navbar-nav .nav-link{
