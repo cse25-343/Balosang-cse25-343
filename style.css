@@ -25,8 +25,17 @@ body{
 }
 
 .navbar-nav .nav-link{
-  color:#fff;
+  color:white !important;
   font-weight:600;
+}
+
+.navbar-nav .nav-link:hover{
+  color:orange !important;
+}
+
+.navbar-nav .nav-link.active{
+  color:orange !important;
+  text-decoration:underline;
 }
 
 .navbar-nav .nav-link.active{
