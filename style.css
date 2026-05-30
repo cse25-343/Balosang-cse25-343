@@ -36,19 +36,56 @@ color:#111;
 
 /* Hero */
 .hero{
-  text-align:center;
-  padding:30px;
-  background:#fff;
-  margin:20px;
-  border-radius:10px;
+
+    height:500px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url('https://cdn.pixabay.com/photo/2018/10/14/19/01/offroad-3747184_1280.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-left:80px;
+
+    color:white;
 }
 
-.hero img{
-  width:100%;
-  max-width:700px;
-  height:auto;
-  margin-top:15px;
-  border-radius:10px;
+.hero-text h1{
+
+    font-size:70px;
+
+    width:600px;
+
+    margin-bottom:20px;
+}
+
+.hero-text p{
+
+    font-size:25px;
+
+    margin-bottom:30px;
+}
+
+.hero-text a{
+
+    background:white;
+
+    color:black;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:30px;
+
+    font-weight:bold;
 }
 
 /* Main layout */
