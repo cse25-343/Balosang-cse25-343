@@ -3,8 +3,8 @@
 body{
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
-  background:#111;
-  color:#fff;
+  background:#f7f7f7;
+  color:#000000;
 }
 
 /* Remove legacy header/nav styling (replaced by Bootstrap navbar) */
@@ -25,17 +25,8 @@ body{
 }
 
 .navbar-nav .nav-link{
-  color:white !important;
+  color:#fff;
   font-weight:600;
-}
-
-.navbar-nav .nav-link:hover{
-  color:orange !important;
-}
-
-.navbar-nav .nav-link.active{
-  color:orange !important;
-  text-decoration:underline;
 }
 
 .navbar-nav .nav-link.active{
@@ -95,34 +86,6 @@ body{
 
   font-weight:bold;
 }
-
-.sidebar{
-    width:25%;
-}
-
-.offer-box,
-.help-box{
-    background:#333;
-    color:white;
-    padding:15px;
-    margin-bottom:20px;
-}
-
-.offer-box h2,
-.help-box h2,
-.offer-box h1,
-.offer-box p,
-.help-box p{
-    margin-bottom:10px;
-}
-
-.offer-box a,
-.help-box a{
-    background:orange;
-    color:white;
-    padding:8px 12px;
-}
-
 
 /* =========================
    VEHICLE SEARCH
@@ -196,9 +159,61 @@ body{
 header{ width:100%; }
 
 aside{
-  flex:1;
+  flex:0 0 25%;
   padding:20px;
 }
+
+/* Sidebar blocks (used on index.html) */
+.sidebar{
+  width:100%;
+}
+
+/* Home categories area beside sidebar */
+.categories-area{
+  flex:1 1 67%;
+}
+
+.main-container.container{
+  gap:30px;
+}
+
+
+.offer-box,
+.help-box{
+  background:#333;
+  color:#fff;
+  padding:15px;
+  margin-bottom:20px;
+  border-radius:10px;
+}
+
+.offer-box h2,
+.help-box h2,
+.offer-box h1,
+.offer-box p,
+.help-box p{
+  margin-bottom:10px;
+}
+
+.offer-box a,
+.help-box a{
+  display:inline-block;
+  background:orange;
+  color:#fff;
+  padding:8px 12px;
+  text-decoration:none;
+  border-radius:6px;
+}
+
+.offer-box a:hover,
+.help-box a:hover{
+  filter:brightness(0.95);
+}
+
+@media (max-width: 768px){
+  aside{ flex:1 1 100%; }
+}
+
 
 /* Product page: make cards wrap nicely */
 .container.products-layout{
@@ -227,7 +242,7 @@ article{
 
 /* keep product cards inside article clean */
 .products-grid .product-card{
-  background:#111;
+  background:#fff;
 }
 
 
@@ -244,11 +259,13 @@ article section{
 
 
 /* Products grid */
-.products-grid{
+.products-grid,
+.home-categories{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:20px;
 }
+
 
 article{
   padding:20px;
