@@ -96,6 +96,34 @@ body{
   font-weight:bold;
 }
 
+.sidebar{
+    width:25%;
+}
+
+.offer-box,
+.help-box{
+    background:#333;
+    color:white;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+.offer-box h2,
+.help-box h2,
+.offer-box h1,
+.offer-box p,
+.help-box p{
+    margin-bottom:10px;
+}
+
+.offer-box a,
+.help-box a{
+    background:orange;
+    color:white;
+    padding:8px 12px;
+}
+
+
 /* =========================
    VEHICLE SEARCH
 ========================= */
