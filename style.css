@@ -362,3 +362,108 @@ footer{
 }
 
 
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablets */
+@media (max-width: 992px){
+
+    .hero{
+        padding-left:40px;
+    }
+
+    .hero-text h1{
+        font-size:50px;
+        width:auto;
+    }
+
+    .hero-text p{
+        font-size:20px;
+    }
+
+    .products-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .home-categories{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px){
+
+    .hero{
+        height:auto;
+        padding:40px 20px;
+        text-align:center;
+        justify-content:center;
+    }
+
+    .hero-text h1{
+        font-size:36px;
+        width:auto;
+    }
+
+    .hero-text p{
+        font-size:18px;
+    }
+
+    .main-content{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+    }
+
+    .home-categories{
+        width:100%;
+        grid-template-columns:1fr;
+    }
+
+    .products-grid{
+        grid-template-columns:1fr;
+    }
+
+    .vehicle-search{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .vehicle-search select,
+    .vehicle-search button{
+        width:100%;
+        max-width:300px;
+    }
+
+    .about{
+        margin:20px;
+        padding:20px;
+    }
+
+    .about-video-wrap video{
+        width:100%;
+    }
+}
+
+/* Very Small Phones */
+@media (max-width: 480px){
+
+    .navbar-brand{
+        font-size:18px;
+    }
+
+    .hero-text h1{
+        font-size:28px;
+    }
+
+    .hero-text p{
+        font-size:16px;
+    }
+
+    .hero-text a{
+        padding:10px 20px;
+    }
+}
