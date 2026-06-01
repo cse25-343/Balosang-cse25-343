@@ -333,6 +333,18 @@ section img{
     border-radius:10px;
 }
 
+.about-video-wrap{
+    width:100%;
+    text-align:center;
+}
+
+.about-video-wrap video{
+    width:100%;
+    max-width:800px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
 /* Footer (kept below main content on products page) */
 footer{
   background:#111;
