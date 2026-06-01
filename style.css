@@ -32,7 +32,9 @@ body{
 }
 
 .navbar-nav .nav-link.active{
-  text-decoration:underline;
+    color:orange !important;
+    font-weight:bold;
+    text-decoration:underline;
 }
 
 /* Hero */
