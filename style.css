@@ -325,10 +325,12 @@ section img{
 
 /* About */
 .about{
-  background:#fff;
-  margin:20px;
-  padding:20px;
-  border-radius:10px;
+    max-width:900px;
+    margin:40px auto;
+    padding:30px;
+    text-align:center;
+    background:white;
+    border-radius:10px;
 }
 
 /* Footer (kept below main content on products page) */
