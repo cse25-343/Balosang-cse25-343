@@ -60,7 +60,7 @@ body{
 
   font-size:70px;
 
-  width:600px;
+  max-width:600px;
 
   margin-bottom:20px;
 }
