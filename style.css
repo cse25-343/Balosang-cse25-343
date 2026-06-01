@@ -5,15 +5,19 @@ body{
   color:white;
 }
 
-/* Remove legacy header/nav styling (replaced by Bootstrap navbar) */
+
 .site-header{ display:none; }
 .logo{ display:none; }
 .main-nav{ display:none; }
 
-/* Navbar (Bootstrap) overrides */
+
 .navbar{
   background:#111 !important;
   padding:18px 20px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
 }
 
 .navbar-brand{
