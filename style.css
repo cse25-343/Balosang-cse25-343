@@ -17,7 +17,7 @@ body{
   position:fixed;
   top:0;
   left:0;
-  width:100%;
+    width:100%;
 }
 
 .navbar-brand{
@@ -147,7 +147,7 @@ body{
 
 /* Products page card layout helpers */
 .page-card{
-  background:black;
+  background:whitesmoke;
   border-radius:14px;
   border:1px solid #eee;
   overflow:hidden;
@@ -282,7 +282,7 @@ article{
 }
 
 .category-card{
-  background:Black;
+  background:white;
   border:1px solid #ddd;
   border-radius:10px;
   padding:15px;
@@ -331,7 +331,7 @@ section img{
     margin:40px auto;
     padding:30px;
     text-align:center;
-    background:black;
+    background:white;
     border-radius:10px;
 }
 
