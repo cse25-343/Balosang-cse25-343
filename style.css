@@ -1,8 +1,8 @@
 body{
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
-  background:#f7f7f7;
-  color:#000000;
+  background:black;
+  color:white;
 }
 
 /* Remove legacy header/nav styling (replaced by Bootstrap navbar) */
@@ -143,7 +143,7 @@ body{
 
 /* Products page card layout helpers */
 .page-card{
-  background:#fff;
+  background:black;
   border-radius:14px;
   border:1px solid #eee;
   overflow:hidden;
