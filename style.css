@@ -231,7 +231,6 @@ aside{
 }
 
 .container.products-layout > header,
-.container.products-layout > aside,
 .container.products-layout > article{
   flex:1 1 320px;
   min-width:320px;
@@ -269,8 +268,7 @@ article section{
 
 
 /* Products grid */
-.products-grid,
-.home-categories{
+.products-grid{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:20px;
